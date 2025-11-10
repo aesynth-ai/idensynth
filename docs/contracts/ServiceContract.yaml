@@ -1,0 +1,10 @@
+﻿endpoints:
+  - id: issue-identity
+    in:  { subject: DID, claims: [] }
+    out: { identity_id, public_key, policy_ref }
+  - id: sign-provenance
+    in:  { hash, signer_id }
+    out: { signature, alg, timestamp }
+events:
+  - topic: idensynth.identity.issued
+  - topic: idensynth.provenance.signed

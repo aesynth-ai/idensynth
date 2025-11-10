@@ -1,0 +1,4 @@
+﻿id: idensynth
+role: identity_and_attestation
+scope: [keys, DID_PKI, provenance_signing, capability_tokens]
+non_authority: "IdenSynth cannot modify Aesynth/Synthlex logic or merge code."
